@@ -1,4 +1,4 @@
-{% extends 'shop\layouts\main.html' %}
+{% extends 'shop/layouts/main.html' %}
 {% block title %}
 ShopKart | Online Shopping
 {% endblock title %}
@@ -17,7 +17,7 @@ ShopKart | Online Shopping
             <li class="breadcrumb-item active" aria-current="page">{{products}}</li>
           </ol>
         </nav>
-        {% include 'shop\inc\message.html' %}
+        {% include 'shop/inc/message.html' %}
       </div>
       <div class="col-4 my-3 pic-box">
         {% if products.trending %}
